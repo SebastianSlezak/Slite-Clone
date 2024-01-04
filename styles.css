@@ -4,15 +4,19 @@ body {
   background-color: #f9efe4;
   margin: 0;
   padding: 0;
-  height: 10000px;
+  /* height: 10000px; */
 }
 
 header {
+  background-color: #f9efe4;
+  position: sticky;
+  top: 0;
+}
+
+.menu {
   display: flex;
   align-items: center;
   height: 120px;
-  position: sticky;
-  top: 0;
   padding-left: 40px;
   padding-right: 40px;
   margin-left: 100px;
@@ -38,8 +42,8 @@ header {
 }
 
 .menu-option:hover {
-    color: #000000;
-    cursor: pointer;
+  color: #000000;
+  cursor: pointer;
 }
 
 .request-demo {
@@ -51,9 +55,9 @@ header {
 }
 
 .request-demo:hover {
-    background-color: #2f2f30;
-    color: #f9efe4;
-    cursor: pointer;
+  background-color: #2f2f30;
+  color: #f9efe4;
+  cursor: pointer;
 }
 
 .start-for-free {
@@ -66,7 +70,36 @@ header {
 }
 
 .start-for-free:hover {
-    background-color: #b6b6b6;
-    color: #176ae5;
-    cursor: pointer;
+  background-color: #b6b6b6;
+  color: #176ae5;
+  cursor: pointer;
+}
+
+main {
+  margin-top: 50px;
+  height: 850px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.main-header {
+  color: #2f2f30;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clarity {
+    margin-left: 15px;
+    margin-right: 15px;
 }
