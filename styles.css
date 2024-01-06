@@ -9,13 +9,14 @@ body {
 header {
   background-color: #f9efe4;
   position: sticky;
+  z-index: 1;
   top: 0;
 }
 
 .menu {
   display: flex;
-  align-items: center;
   height: 120px;
+  align-items: center;
   padding-left: 40px;
   padding-right: 40px;
   margin-left: 100px;
@@ -86,12 +87,12 @@ header {
 }
 
 main {
-  margin-top: 50px;
   height: 850px;
 }
 
 .main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -162,4 +163,29 @@ main {
   background: #176ae5;
   border: none;
   padding: 10px 24px;
+}
+
+.main-img {
+  margin-top: 150px;
+}
+
+.main-guide {
+  display: flex;
+}
+
+.main-guide-text-above {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #2f2f30;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.main-guide-text-below {
+  color: rgba(47, 47, 48, 0.7);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 27px;
 }
