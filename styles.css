@@ -178,6 +178,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 16px;
+  position: relative;
 }
 
 .main-time {
@@ -207,4 +208,49 @@ main {
   font-size: 15px;
   font-weight: 500;
   line-height: 27px;
+}
+
+.second-main-guide-card,
+.third-main-guide-card {
+  position: absolute;
+  top: 6.5em;
+  width: 350px;
+  height: 30px;
+  background: #fff;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 2px 12px 0px rgba(128, 126, 120, 0.15);
+}
+
+.second-main-guide-card {
+  z-index: -1;
+}
+
+.third-main-guide-card {
+  top: 7.3em;
+  width: 310px;
+  z-index: -2;
+}
+
+.sponsors {
+  margin-left: 15em;
+  margin-right: 15em;
+}
+
+.sponsors-text {
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  color: #2f2f30;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: .63em;
+}
+
+.sponsors-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
 }
