@@ -259,7 +259,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #2F2F30;
+  color: #2f2f30;
   text-align: center;
   white-space: nowrap;
 }
@@ -282,5 +282,32 @@ main {
 .info-information-selection-section {
   margin-left: 10vw;
   margin-right: 10vw;
+  justify-content: center;
   display: flex;
+}
+
+.info-information-selection-section-left-side-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-information-selection-section-left-side-menu-option {
+  display: flex;
+  color: #2f2f30;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem 0.0625rem rgba(47, 47, 48, 0.08),
+    0 0 0.0625rem 0 rgba(47, 47, 48, 0.08);
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.4rem;
+  padding: 1.0625rem 6.3274rem 1.0869rem 1.25rem;
+  white-space: nowrap;
+  transition: background 1s;
+}
+
+.info-information-selection-section-left-side-menu-option:hover {
+  background: #fff;
+  cursor: pointer;
 }
