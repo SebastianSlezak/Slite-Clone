@@ -85,7 +85,7 @@ header {
 }
 
 main {
-  height: 850px;
+  margin-bottom: 80px;
 }
 
 .main {
@@ -199,12 +199,12 @@ main {
   font-size: 17px;
   font-weight: 700;
   line-height: 27px;
+  white-space: nowrap;
 }
 
 .main-guide-text-below {
   color: rgba(47, 47, 48, 0.7);
   font-size: 15px;
-  font-weight: 500;
   line-height: 27px;
 }
 
@@ -231,8 +231,9 @@ main {
 }
 
 .sponsors {
-  margin-left: 15em;
-  margin-right: 15em;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding-bottom: 60px;
 }
 
 .sponsors-text {
@@ -242,8 +243,8 @@ main {
   color: #2f2f30;
   text-align: center;
   font-size: 1em;
-  font-weight: 500;
   line-height: 0.63em;
+  white-space: nowrap;
 }
 
 .sponsors-img {
@@ -251,4 +252,23 @@ main {
   justify-content: space-between;
   align-items: center;
   margin-top: 2em;
+}
+
+.info-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #2F2F30;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.info-title h2 {
+  font-size: 2.625em;
+}
+
+.info-title p {
+  font-size: 1.0625em;
+  margin: 0;
 }
