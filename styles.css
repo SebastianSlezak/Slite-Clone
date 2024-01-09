@@ -15,7 +15,7 @@ header {
 
 .menu {
   display: flex;
-  height: 120px;
+  height: 7.5rem;
   align-items: center;
   margin-left: 10vw;
   margin-right: 10vw;
@@ -28,14 +28,14 @@ header {
 .menu-header {
   display: flex;
   justify-content: right;
-  gap: 20px;
+  gap: 1.25rem;
   white-space: nowrap;
 }
 
 .menu-option {
   color: #2f2f30;
-  font-size: 14px;
-  padding: 16px;
+  font-size: 0.875rem;
+  padding: 1rem;
   transition: color 1s;
 }
 
@@ -47,9 +47,9 @@ header {
 .request-demo {
   background: none;
   font-weight: 400;
-  border: 1px solid #2f2f30;
-  border-radius: 50px;
-  padding: 10px 24px;
+  border: 0.0625rem solid #2f2f30;
+  border-radius: 3.125rem;
+  padding: 0.625rem 1.5rem;
   transition: background-color 1s, color 1s;
 }
 
@@ -65,9 +65,9 @@ header {
   color: #ffffff;
   font-weight: 400;
   border: none;
-  border-radius: 30px;
+  border-radius: 1.875rem;
   white-space: nowrap;
-  padding: 10px 24px;
+  padding: 0.625rem 1.5rem;
   transition: background-color 1s, color 1s, box-shadow 1s;
 }
 
@@ -80,12 +80,12 @@ header {
 .start-for-free-form-button:hover {
   background-color: #b6b6b6;
   color: #176ae5;
-  box-shadow: 0px 0px 0px 1px #b6b6b6;
+  box-shadow: 0 0 0 0.0625rem #b6b6b6;
   cursor: pointer;
 }
 
 main {
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 }
 
 .main {
@@ -96,38 +96,38 @@ main {
 }
 
 .main-text {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 12.5rem;
+  margin-right: 12.5rem;
   position: relative;
 }
 
 .main-header {
   color: #2f2f30;
-  font-size: 60px;
+  font-size: 3.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .clarity {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem;
 }
 
 .main-info {
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
   text-align: center;
-  inline-size: 750px;
-  margin-top: 15px;
+  inline-size: 46.875rem;
+  margin-top: 0.9375rem;
 }
 
 .email-start-for-free {
   display: flex;
   justify-content: center;
-  margin-top: 150px;
-  border: 1px solid #2f2f30;
-  border-radius: 30px;
+  margin-top: 9.375rem;
+  border: 0.0625rem solid #2f2f30;
+  border-radius: 1.875rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -138,9 +138,9 @@ main {
   flex-grow: 2;
   background: none;
   border: none;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding: 20px 50px;
+  padding-left: 3.125rem;
+  padding-right: 3.125rem;
+  padding: 1.25rem 3.125rem;
 }
 
 .email-start-for-free-input:focus {
@@ -149,46 +149,46 @@ main {
 
 .email-start-for-free-input::placeholder {
   color: #98999a;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
 .start-for-free-form-button {
-  border-radius: 30px;
-  box-shadow: 0px 0px 0px 1px #176ae5;
+  border-radius: 1.875rem;
+  box-shadow: 0 0 0 0.0625rem #176ae5;
   background: #176ae5;
   border: none;
-  padding: 10px 24px;
+  padding: 0.625rem 1.5rem;
 }
 
 .main-img {
-  margin-top: 150px;
+  margin-top: 9.375rem;
 }
 
 .main-guide {
   display: flex;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   background: #fff;
-  box-shadow: 0px 2px 12px 0px rgba(128, 126, 120, 0.16);
-  padding: 16px 24px;
+  box-shadow: 0 0.125rem 0.75rem 0 rgba(128, 126, 120, 0.16);
+  padding: 1rem 1.5rem;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
   position: relative;
 }
 
 .main-time {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .main-time-element {
   color: #98999a;
   text-align: center;
-  font-size: 10px;
+  font-size: 0.625rem;
   font-weight: 900;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
 }
 
 .main-guide-text-above {
@@ -196,28 +196,28 @@ main {
   flex-direction: column;
   justify-content: center;
   color: #2f2f30;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 700;
-  line-height: 27px;
+  line-height: 1.6875rem;
   white-space: nowrap;
 }
 
 .main-guide-text-below {
   color: rgba(47, 47, 48, 0.7);
-  font-size: 15px;
-  line-height: 27px;
+  font-size: 0.9375rem;
+  line-height: 1.6875rem;
 }
 
 .second-main-guide-card,
 .third-main-guide-card {
   position: absolute;
   top: 6.5em;
-  width: 350px;
-  height: 30px;
+  width: 21.875rem;
+  height: 1.875rem;
   background: #fff;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   background: rgba(255, 255, 255, 0.95);
-  box-shadow: 0px 2px 12px 0px rgba(128, 126, 120, 0.15);
+  box-shadow: 0 0.125rem 0.75rem 0 rgba(128, 126, 120, 0.15);
 }
 
 .second-main-guide-card {
@@ -226,14 +226,14 @@ main {
 
 .third-main-guide-card {
   top: 7.3em;
-  width: 310px;
+  width: 19.375rem;
   z-index: -2;
 }
 
 .sponsors {
   margin-left: 10vw;
   margin-right: 10vw;
-  padding-bottom: 60px;
+  padding-bottom: 3.75rem;
 }
 
 .sponsors-text {
@@ -270,5 +270,17 @@ main {
 
 .info-title p {
   font-size: 1.0625em;
-  margin: 0;
+  margin-top: 0;
+}
+
+.info-information-selection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-information-selection-section {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: flex;
 }
