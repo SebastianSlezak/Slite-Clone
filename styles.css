@@ -311,3 +311,7 @@ main {
   background: #fff;
   cursor: pointer;
 }
+
+.info-information-selection-section-right-side {
+  flex-shrink: 0;
+}
