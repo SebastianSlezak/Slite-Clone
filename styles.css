@@ -280,6 +280,7 @@ main {
 }
 
 .info-information-selection-section {
+  margin-top: 5vh;
   margin-left: 10vw;
   margin-right: 10vw;
   justify-content: center;
@@ -314,4 +315,11 @@ main {
 
 .info-information-selection-section-right-side {
   flex-shrink: 0;
+  position: relative;
+  margin-left: 5vw;
+}
+
+.laptop-img {
+  position: absolute;
+  left: 0;
 }
