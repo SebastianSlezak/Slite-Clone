@@ -393,10 +393,44 @@ main {
   padding: 2rem;
 }
 
-.browse-templates-card-text span{
+.browse-templates-card-text {
   color: #2f2f30;
+  white-space: nowrap;
+  margin-bottom: 1rem;
+}
+
+.browse-templates-card-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.browse-templates-card:nth-of-type(1) .browse-templates-card-icon {
+  background: url(img\card1.png), #F9EFE4 50% / contain no-repeat;
+}
+
+.browse-templates-card:nth-of-type(2) .browse-templates-card-icon {
+  background: url(img\card2.png), #EEBACB 50% / contain no-repeat;
+}
+
+.browse-templates-card:nth-of-type(3) .browse-templates-card-icon {
+  background: url(img\card3.png), #176AE5 50% / contain no-repeat;
+}
+
+.browse-templates-card:nth-of-type(4) .browse-templates-card-icon {
+  background: url(img\card4.png), #F67748 50% / contain no-repeat;
+}
+
+.browse-templates-card:nth-of-type(5) .browse-templates-card-icon {
+  background: url(img\card5.png), #F9EFE4 50% / contain no-repeat;
+}
+
+.browse-templates-card:nth-of-type(6) .browse-templates-card-icon {
+  background: url(img\card6.png), #EEBACB 50% / contain no-repeat;
 }
 
 .browse-templates-card-img {
-
+  height: 100%;
+  width: 100%;
 }
