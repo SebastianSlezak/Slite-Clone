@@ -492,6 +492,7 @@ main {
   background: #000;
   margin-left: 5rem;
   margin-right: 5rem;
+  margin-bottom: 1.5rem;
   width: 80rem;
   height: 48rem;
   position: relative;
@@ -527,4 +528,64 @@ main {
   line-height: 0.9rem;
   letter-spacing: 0.0225rem;
   text-transform: uppercase;
+}
+
+.quote-section {
+  margin-top: 7.5rem;
+}
+
+.quote-section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.quote-section-text hr {
+  stroke-width: 0.0625rem;
+  stroke: #2f2f30;
+  width: 53.125rem;
+  flex-shrink: 0;
+}
+
+.quote-section-text p {
+  color: #2f2f30;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 1.375rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 2.0625rem;
+}
+
+.quote-section-text-author {
+  color: #2f2f30;
+  text-align: center;
+  font-size: 0.625rem;
+  font-weight: 900;
+  line-height: 1rem;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  
+}
+
+.quote-section-text-position {
+  color: #2f2f30;
+  text-align: center;
+  font-size: 0.625rem;
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.quote-section-text-author-img {
+  position: absolute;
+  left: 18.75rem;
+  bottom: -3.3125rem;
 }
