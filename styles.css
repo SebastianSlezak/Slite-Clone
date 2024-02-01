@@ -789,8 +789,22 @@ main {
     0px 0px 1px 0px rgba(0, 0, 0, 0.08);
 }
 
-
 .teams-section-card-text-background {
-  background: #EEBACB;
+  background: #eebacb;
   border-radius: 0.25rem;
+}
+
+.teams-section-card-author {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.teams-section-card-author-position {
+  display: flex;
+  flex-direction: column;
+}
+
+.teams-section-card-author img {
+  border-radius: 50%;
 }
