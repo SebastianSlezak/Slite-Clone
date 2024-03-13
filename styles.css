@@ -789,6 +789,28 @@ main {
     0px 0px 1px 0px rgba(0, 0, 0, 0.08);
 }
 
+.teams-section-card:nth-child(9) {
+  background: none;
+  box-shadow: none;
+}
+
+.teams-section-card-read-more-reviews {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.teams-section-card-read-more-reviews:visited {
+  color: #2f2f30;
+}
+
+.teams-section-cards .teams-section-card:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .teams-section-card-text-background {
   background: #eebacb;
   border-radius: 0.25rem;
@@ -807,4 +829,8 @@ main {
 
 .teams-section-card-author img {
   border-radius: 50%;
+}
+
+.teams-section-card-position {
+  margin: 3.125rem;
 }
