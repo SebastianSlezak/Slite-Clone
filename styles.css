@@ -859,6 +859,7 @@ main {
 }
 
 .team-section__sign-me-up-btn {
+  margin: 1.25rem;
   background: #176ae5;
   color: #ffffff;
   border: none;
