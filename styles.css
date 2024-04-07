@@ -870,3 +870,10 @@ main {
   line-height: 1.4rem;
   letter-spacing: 0.0063rem;
 }
+
+footer {
+  background: #ffffff;
+  height: 400px;
+  border-top-left-radius: 80% 80%;
+  border-top-right-radius: 30% 30%;
+}
