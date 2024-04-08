@@ -842,7 +842,7 @@ main {
   align-items: center;
 }
 
-.team-container{
+.team-container {
   color: #2f2f30;
 }
 
@@ -871,9 +871,7 @@ main {
   letter-spacing: 0.0063rem;
 }
 
-footer {
+.vecotor2 {
   background: #ffffff;
-  height: 400px;
-  border-top-left-radius: 80% 80%;
-  border-top-right-radius: 30% 30%;
+  width: 100%;
 }
