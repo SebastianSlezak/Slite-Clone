@@ -871,7 +871,24 @@ main {
   letter-spacing: 0.0063rem;
 }
 
-.vecotor2 {
+.vector-logo {
   background: #ffffff;
   width: 100%;
+}
+
+.menu-section {
+  display: flex;
+}
+
+.legal-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.legal-links p {
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
