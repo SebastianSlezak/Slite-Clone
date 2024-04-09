@@ -871,6 +871,10 @@ main {
   letter-spacing: 0.0063rem;
 }
 
+footer {
+  color: #2f2f30;
+}
+
 .vector-logo {
   background: #ffffff;
   width: 100%;
@@ -878,6 +882,27 @@ main {
 
 .menu-section {
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-category p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.05rem;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.menu-title,
+.newsletter-description {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+}
+
+.divider {
+  margin: 0 5%;
 }
 
 .legal-links {
@@ -885,7 +910,6 @@ main {
   align-items: center;
   justify-content: center;
 }
-
 
 .legal-links p {
   align-items: center;
