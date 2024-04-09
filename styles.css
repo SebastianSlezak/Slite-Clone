@@ -880,10 +880,15 @@ footer {
   width: 100%;
 }
 
+.content {
+  display: inline-block;
+}
+
 .menu-section {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: center; 
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .menu-category p {
