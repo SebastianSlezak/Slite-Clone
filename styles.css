@@ -888,6 +888,9 @@ footer {
   display: flex;
   justify-content: space-evenly;
   gap: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
 
 .menu-category {
@@ -900,6 +903,11 @@ footer {
   line-height: 1.05rem;
   margin-left: 15%;
   margin-right: 15%;
+}
+
+.menu-category,
+.legal-links p:hover {
+  cursor: pointer;
 }
 
 .newsletter-section {
@@ -917,6 +925,20 @@ footer {
   border-width: 0.0625rem;
   border-color: #2f2f30;
   border-radius: 20px;
+}
+
+.signup-button {
+  color: #ffffff;
+  background: #176ae5;
+  border: none;
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  margin-left: -41px;
+}
+
+.signup-button:hover {
+  cursor: pointer;
 }
 
 .hiring-tag {
